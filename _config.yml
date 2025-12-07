@@ -18,12 +18,11 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Ethical Hacking Essentials Blog
-email: rgurram1s@semo.edu
+title: My IT Notes
+email: gurramrs@outlook.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Welcome to the Ethical Hacking Essentials Blog. 
-  This blog serves as a comprehensive resource for the Ethical Hacking Essentials course. 
-  With this blog, you'll gain valuable insight into the world of ethical hacking and enhance your learning experience.
+  Welcome to My IT Notes! 
+  This blog is place to share my IT learnings.
 baseurl: "/" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: jekyllrb
