@@ -68,7 +68,7 @@ command substitution $()
     - ```
         #!/bin/bash
         echo "Choose an option: start, stop, restart"
-        action=$1
+        action="$1"
 
         case $action in
         start)
