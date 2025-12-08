@@ -49,15 +49,15 @@ command substitution $()
 
 - Conditional Statements (`if`): Conditional statements let you execute different code depending on conditions.
     -  ```
-        if [$1 -gt 10]; then
+        if [ $1 -gt 10 ]; then
             echo value entered is greater than 10
         else
             echo value entered is less than 10
         fi
         ```
     - ```
-      $username = $1
-      if id "$username"; then
+      $username="$1"
+      if id "$username" > /dev/null 2>&1; then
         echo "User $username already exists."
       else
         sudo useradd "$username"
