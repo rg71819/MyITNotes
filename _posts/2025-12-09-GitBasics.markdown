@@ -11,6 +11,12 @@ background: ''
 
 Git is a powerful distributed version control system that helps developers track changes in their code and collaborate with others. Here are some essential Git commands to help you use Git effectively:
 
+## Install Git
+1. To install git you can use following commands, depending on the operating system you have.
+    - Debian/Ubuntu `sudo apt install git`
+    - RedHat/Rocky `sudo dnf install git`
+    - suse `sudo zypper install git`
+
 ## Setting Up Your Git Environment
 1.	Configure Git: Set your username and email for Git commits.
     - `git config --global user.name "Your Name"`
