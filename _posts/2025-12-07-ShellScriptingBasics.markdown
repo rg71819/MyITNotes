@@ -27,9 +27,10 @@ Before writing scripts, it’s important to understand a few core concepts:
     - `#!/bin/bash`
     - `echo "Hello, World!"`
 
-- Variables: Think of variables like a labeled container that can hold values for your script. In scripting we can use variables to store data. In shell scripting variables are defined without any data type and can hold numbers, strings, etc. You can assign values to variables as shown below.
+- Variables: Think of variables like a labeled container that can hold values for your script. In scripting we can use variables to store data. In shell scripting variables are defined without any data type and can hold numbers, strings, etc. You can assign values to variables as shown below. If you need to use the value of a variable anywhere in your script you can use `"$variable_name"` or `${variable_name}`.
     - `name="Ravi"`
     - `echo "Hello, $name"`
+    - `echo "Hello, ${name}"`
 
 - Environment Variables: environment variables have system information stored in them, you can use this in scripts to retrieve information such as your home directory, user id etc. Here are some examples:
     - `$HOME`: stores user home directory
@@ -45,7 +46,7 @@ Before writing scripts, it’s important to understand a few core concepts:
     - `$@` refers to all arguments
     - `$#` shows the number of arguments passed
 
-command substitution $()
+- Command substitution: with command substitution you can insert the output/result of a command into another command or script. You can use `$(command)` to insert the result of your command to a script. 
 
 - Conditional Statements (`if`): Conditional statements let you execute different code depending on conditions.
     -  ```
