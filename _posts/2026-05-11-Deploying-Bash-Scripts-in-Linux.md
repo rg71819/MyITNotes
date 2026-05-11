@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Deploying Bash Scripts in Linux"
-date:   2025-12-06 11:00:00 -0500
+date:   2026-05-11 07:00:00 -0500
 author: Ravi Shankar Gurram
 categories: ['Linux']
 background: ''
